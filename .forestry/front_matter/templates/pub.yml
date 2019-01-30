@@ -1,0 +1,25 @@
+---
+label: pub
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: title
+  label: Title
+  config:
+    required: true
+- type: tag_list
+  name: tags
+  label: tags
+- type: textarea
+  name: textarea
+  label: Textarea
+  config:
+    wysiwyg: true
+    schema:
+      format: html-blocks
+- type: file
+  name: image
+  label: image
+  config:
+    maxSize: '5'
