@@ -1,7 +1,4 @@
 ---
----
-
----
 label: pub
 hide_body: false
 is_partial: false
@@ -26,3 +23,5 @@ fields:
   label: image
   config:
     maxSize: '5'
+pages:
+- xoops-cube-legacy-2-3-0-alpha.html
