@@ -9,8 +9,4 @@ twitter_username: xoopscube
 github_username: xoopscube
 markdown: kramdown
 theme: minima
-plugins:
-  - jekyll-admin
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-assets
+
