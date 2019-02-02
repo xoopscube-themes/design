@@ -1,8 +1,12 @@
 ---
 title: Welcome to XCL
+date: 2019-01-29 22:55:29 Z
+categories:
+- site
+- jekyll
+- update
+- xcl
 layout: post
-date: '2019-01-29 23:55:29 +0100'
-categories: jekyll update xcl
 ---
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
