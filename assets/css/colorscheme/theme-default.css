@@ -1,0 +1,86 @@
+/*---------------------------------------------
+Theme:		XCL Default
+Author: 	Gigamaster
+Package: 	XOOPS Cube Legacy
+File:     theme-default.css
+Version:	2.3.0
+Date:     2019-01-29
+URL:      https://xoopscube.github.io/
+---------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
+
+
+.head-nav {
+  background: #131517;
+} 
+.head-nav .head-nav-top .head-nav-logo,
+.side-nav-left,
+.side-nav-menu,
+.side-nav-right,
+.page-titles,
+.card {
+  background: #1b1f25; 
+}
+
+.head-nav span.logo-xcl-none {
+  color: #334455;
+}
+
+.head-nav .head-nav-top .navbar-menu > .nav-item {
+  padding-left: 0.5rem;
+}
+
+.head-nav .head-nav-top .navbar-menu > .nav-item > .nav-link {
+  font-size: 0.85rem;
+  display: inline-block;
+}
+
+.side-nav-menu > ul > li.active > a {
+  color: #1984f8;
+
+}
+  
+.side-nav-menu ul li a.active i, .side-nav-menu ul li a:hover i {
+  color: #1984e8; 
+}
+  
+/* Side-nav-minimized */
+.side-nav-min span.logo-xcl-none {
+  display: none;
+}
+
+/* Side-nav-min resize images */
+.side-nav-min .side-nav-menu {
+  background: transparent;
+}
+
+.side-nav-min .side-nav-show #side-nav-list ul li img {
+  max-width: 240px;
+}
+
+/* Side-nav-right */
+.side-nav-right .theme-settings {
+  background: #1984f8; 
+}
+
+.page-wrapper {
+  background: #212730;
+}
+
+a {
+  color: #1984f8; 
+}
+
+a:hover,
+a:focus {
+  color: #face74 !important; 
+}
+
+.user-profile .profile-text a {
+  color: #ABC !important; 
+}
+
+div.card.module  {
+  border-top: 1px solid #face74;
+}

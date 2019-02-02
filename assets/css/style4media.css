@@ -1,0 +1,222 @@
+/*---------------------------------------------
+Theme:		XCL Default
+Author: 	Gigamaster
+Package: 	XOOPS Cube Legacy
+File:     style4media.css
+Version:	2.3.0
+Date:     2019-01-29
+URL:      https://xoopscube.github.io/
+---------------------------------------------*/
+
+/*---------------------------------------------
+ Screen Media - Desktop minimum 1024px
+---------------------------------------------*/
+
+@media (min-width: 1024px) {
+  .page-wrapper {
+    margin-left: 240px;
+  }
+  .side-nav-min h3.text-code-logo {
+    position: fixed;
+    display: block;
+    max-width: 60px;
+  }
+  .footer {
+    left: 240px;
+  }
+}
+
+/*---------------------------------------------
+ Screen Media - Maximum 1024px
+---------------------------------------------*/
+
+@media (max-width: 1023px) {
+  .page-wrapper {
+    margin-left: 60px;
+    -webkit-transition: 0.2s ease-in;
+    -o-transition: 0.2s ease-in;
+    transition: 0.2s ease-in;
+  }
+  .footer {
+    left: 60px;
+  }
+  .widget-app-columns {
+    -webkit-column-count: 1;
+    column-count: 1;
+  }
+  .inbox-center a {
+    width: 200px;
+  }
+  .side-nav-min h3.text-code-logo {
+    position: fixed;
+    display: block;
+    width: 60px;
+  }
+}
+
+/*---------------------------------------------
+ Screen Media - Pad minimum 768px
+---------------------------------------------*/
+
+@media (min-width: 768px) {
+  .head-nav-logo {
+    width: 240px;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+  }
+  /* Side Nav Minimized */
+  .side-nav-min span.logo-xcl-none {
+    display: none;
+  }
+  .side-nav-min ul#side-nav-list li img {
+    max-width: 58px !important;
+  }
+  .side-nav-min .side-nav-menu #side-nav-list li {
+    position: relative;
+  }
+  .side-nav-min .side-nav-menu #side-nav-list>li>ul {
+    position: absolute;
+    left: 60px;
+    top: 38px;
+    width: 200px;
+    z-index: 1001;
+    background: #131517;
+    display: none;
+    padding-left: 1px;
+  }
+  .side-nav-min .side-nav-menu #side-nav-list>li:hover>ul {
+    height: auto !important;
+    overflow: auto;
+  }
+  .side-nav-min .side-nav-menu #side-nav-list>li:hover>ul, .side-nav-min .side-nav-menu #side-nav-list>li:hover>ul.collapse {
+    display: block;
+  }
+  .side-nav-min .side-nav-menu #side-nav-list>li>a.has-arrow:after {
+    display: none;
+  }
+  .side-nav-min.fix-sidebar .side-nav-left {
+    position: absolute;
+  }
+  .side-nav-min .side-nav-left {
+    width: 60px;
+  }
+  .side-nav-min .slimScrollLeft {
+    padding-bottom: 0px;
+    position: absolute;
+    overflow-x: hidden !important;
+  }
+  .side-nav-min .hide-menu {
+    display: none;
+  }
+  .side-nav-min .nav-devider {
+    width: 60px;
+  }
+  .side-nav-min .side-nav-menu {
+    background: transparent;
+  }
+  .side-nav-min .side-nav-menu #side-nav-list>li>a {
+    padding: 5px 20px;
+    width: 50px;
+  }
+  .side-nav-min .side-nav-menu #side-nav-list>li:hover>a {
+    width: 260px;
+    background: #1984f8;
+    color: #FFF;
+  }
+  .side-nav-min .side-nav-menu #side-nav-list>li:hover>a .hide-menu {
+    display: inline;
+  }
+  .side-nav-min .page-wrapper {
+    margin-left: 60px;
+  }
+  .page-titles .breadcrumb {
+    float: right;
+  }
+  .side-nav-min .footer {
+    left: 60px;
+  }
+  .flex-wrap {
+    -ms-flex-wrap: nowrap !important;
+    flex-wrap: nowrap !important;
+    -webkit-flex-wrap: nowrap !important;
+  }
+}
+
+/*---------------------------------------------
+ Screen Media - Smartphone & Pad maximum 767px
+---------------------------------------------*/
+
+@media (max-width: 767px) {
+  .head-nav {
+    position: fixed;
+    width: 100%;
+  }
+  .head-nav span.logo-xcl-none {
+    display: none!important;
+  }
+  .head-nav .head-nav-top {
+    padding-right: 15px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-align-items: center;
+  }
+  .head-nav .head-nav-top .navbar-collapse {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+  }
+  .head-nav .head-nav-top .navbar-menu {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+  /* Hide Github Text */
+  .head-nav .head-nav-top .navbar-collapse .navbar-menu>.nav-item>.nav-link {
+    line-height: 0;
+    font-size: 0;
+    color: transparent; /* webkit trick */
+  }
+  .head-nav .head-nav-top .navbar-menu>.nav-item.show {
+    position: static;
+  }
+  .head-nav .head-nav-top .navbar-menu>.nav-item.show .dropdown-menu {
+    width: 100%;
+    margin-top: 0px;
+  }
+  .head-nav .head-nav-top .navbar-menu .dropdown-menu {
+    position: absolute;
+  }
+  /* Side Nav Minimized */
+  .side-nav-min .side-nav-menu #side-nav-list>li>ul {
+    background: #131517;
+  }
+  .side-nav-min span.logo-xcl-none {
+    display: none;
+  }
+  .side-nav-min .side-nav-left {
+    position: fixed;
+  }
+  .side-nav-min .side-nav-left {
+    left: -240px;
+  }
+  .side-nav-min.side-nav-show .side-nav-left {
+    left: 0px;
+  }
+  .side-nav-min .page-wrapper {
+    margin-left: 0px;
+    padding-top: 50px;
+  }
+  .side-nav-min h3.text-code-logo {
+    display: block;
+    max-width: 60px;
+  }
+  .footer {
+    left: 0px;
+  }
+}
