@@ -27,13 +27,11 @@ All notable changes to this project will be documented in this file.
 
 ### Removed
 
-- Remove ?> from PHP files, Kilica
-- Move folder 'docs' to new repo
-- Move folder 'extras' to new repo
+- legacy tagname
 
 ### Fixed
 
-- UMedia queries
+- Media queries
 - Responsive layout for tablet and mobile
 
 ### Security
