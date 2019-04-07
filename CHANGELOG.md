@@ -12,7 +12,8 @@ All notable changes to this project will be documented in this file.
 
 ### Added
 
-- Admin Teme Dashboard
+- Admin Theme Dashboard
+- Admin Theme styles
 - Admin Templates
 
 ### Changed
